@@ -1,0 +1,56 @@
+nav ul li a{
+
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    animation-name: szinv;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+nav ul{
+
+    list-style-type:none;
+    margin:0;
+    padding: 1em 0 0.5em 1em;
+}
+nav ul li{
+
+    display: inline;
+    margin-right: 2em;
+
+    
+}
+
+nav{
+
+    width: 100%;
+    background-color: rgb(100, 100, 100);
+    
+}
+body{
+
+    margin: 0;
+    
+    
+}
+
+html{
+    background-color: rgb(100, 100, 100);
+}
+
+@keyframes szinv {
+
+    0%{color:skyblue;padding:0px;}
+    50%{color:violet;padding:50px;}
+    100%{color:skyblue;padding:0px;}
+
+
+}
+@keyframes szinv2 {
+
+    0%{background-color:skyblue;}
+    50%{background-color:violet;}
+    100%{background-color:skyblue;}
+}

@@ -1,0 +1,25 @@
+.no-margin{
+    margin :0;
+}
+.font-big{
+
+font-size: 1.5rem;
+text-decoration: none;
+}
+
+.bg-light{
+
+    background-color: rgb(220,220,220);
+
+}
+
+.color-primary{
+
+    color: rgb(11, 11, 133)
+}
+
+.inline{
+    display:inline;
+}
+
+
